@@ -20,8 +20,6 @@ return new class extends Migration
             $table->string('pdf_uri',255);
             $table->unsignedInteger('level_id');
             $table->timestamps();
-
-           
         });
     }
 
